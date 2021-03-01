@@ -7,8 +7,8 @@ SRCS= main.o init.o
 DRAPEAU =-Wall
 DRAPEAU +=-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F4  -Os
 DRAPEAU +=--static -nostartfiles -Tstm32f4-discovery.ld
-DRAPEAU +=-lopencm3_stm32f4 -I/home/etudiant/libopencm3/include
-LDFLAGS = -L/home/etudiant/libopencm3/lib
+DRAPEAU +=-lopencm3_stm32f4 -I/home/vibiscus/libopencm3/include
+LDFLAGS = -L/home/vibiscus/libopencm3/lib
 
 # ========================================================
 
