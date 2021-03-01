@@ -17,7 +17,6 @@ le_test[80]='\n';
 msk=(1<<11)|(1<<12)|(1<<13);
 clock_setup();
 init_gpio();
-usart2_setup();
 adc_setup();
 
  for (i=0; i<150000;i++){}
