@@ -1,4 +1,4 @@
-#include "fonction.h" 
+#include "fonction.h"
 
 int main()
 {
@@ -14,12 +14,12 @@ while(1)
   {
 	  if (b<1500000)
 		  led_set(msk);
-	  else 
+	  else
 		  led_clr(msk);
 	b++;
 	  if (b==3000000)
 		  b=0;
     }
-	
-return 0;
+
+return 0 ;
 }
